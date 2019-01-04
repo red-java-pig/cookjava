@@ -1,0 +1,11 @@
+编译：
+javac -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar -d classes @source
+
+javac -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar -d classes src\exercise\operators\*.java
+
+运行：
+java -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar exercise.control.ForEachIntTest
+
+反编译：
+javap -verbose classes\exercise\operators\BitOpr2.class
+
