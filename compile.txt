@@ -1,11 +1,11 @@
 编译：
-javac -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar -d classes @source
+javac -cp bin:lib/TinkingInJava.jar:lib/typeinfo-pets.jar -d bin @source
 
-javac -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar -d classes src\exercise\operators\*.java
+javac -cp bin:lib/TinkingInJava.jar:lib/typeinfo-pets.jar -d bin src/psn/redpig/tij4/exercise/operators/BitOpr.java
 
 运行：
-java -cp classes;lib\TinkingInJava.jar;lib\typeinfo-pets.jar exercise.control.ForEachIntTest
+java -cp bin:lib/TinkingInJava.jar:lib/typeinfo-pets.jar psn.redpig.tij4.exercise.operators.BitOpr
 
 反编译：
-javap -verbose classes\exercise\operators\BitOpr2.class
+javap -verbose bin\exercise\operators\BitOpr2.class
 
