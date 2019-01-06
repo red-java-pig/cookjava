@@ -1,3 +1,4 @@
+linux
 编译：
 javac -cp bin:lib/TinkingInJava.jar:lib/typeinfo-pets.jar -d bin @source
 
