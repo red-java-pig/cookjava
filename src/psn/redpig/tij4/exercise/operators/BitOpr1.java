@@ -1,4 +1,4 @@
-package practice.operators;
+package psn.redpig.tij4.exercise.operators;
 
 import static net.mindview.util.Print.*;
 
