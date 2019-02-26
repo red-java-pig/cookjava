@@ -1,3 +1,4 @@
-#ignore class file
-*.class
-source
+bin/
+lib/
+/.classpath
+/.project
